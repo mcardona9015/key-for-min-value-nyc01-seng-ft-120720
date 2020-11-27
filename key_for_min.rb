@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   first_key, min_val = name_hash.first
   min_val_product = ''
-  if name_hash.is_empty?
+  if name_hash.empty?
     nil
   else
     name_hash.each do |product, price|
